@@ -20,7 +20,6 @@ DWORD readMem(HANDLE processHandle, LPCVOID address) {
 #endif
 
 	return buffer;
-	//returns a hex
 }
 
 BOOL writeMem(HANDLE handle, LPVOID address, int writeData) {
